@@ -1,0 +1,74 @@
+.Navig{
+	position: fixed;
+	background: #fff;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	text-align: center;
+}
+
+.Navig a{
+	
+	margin-top: 40px;
+	text-align: right;
+	height: 500px;
+	overflow-y: auto; 
+	margin-bottom: 50px;
+	width:device-width;
+	font-family: "Lato";
+	font-size: 25px;
+	line-height: 1.9em;
+	text-align: center;
+	text-decoration: none;
+
+}
+	
+
+.linkedin{
+	color:#0077b5;
+
+}
+.linkedin:hover{
+
+color:#17368C;
+  
+  
+}
+.insta{
+	color: #c13584;
+}
+.insta:hover{
+	color: #7B1FA2;
+}
+.telegram{
+	color: #0088cc;
+}
+.telegram:hover{
+	color: #005661;
+}
+.twitter{
+	color:#1da1f2;
+}
+.twitter:hover{
+	color: #2EC8DB;
+}
+.stack{
+	color: #f48024;
+}
+.stack:hover{
+	color: #E65100;
+}
+.github{
+	color: #333
+}
+.github:hover{
+	color: #dddccc;
+}
+.gmail{
+	color: #ea4335;
+	font-size: 1.3em;
+}
+.gmail:hover{
+	color: #7C2587;
+}

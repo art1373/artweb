@@ -1,0 +1,19 @@
+.logo{
+	
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	box-shadow: 3px 3px 5px #999;
+	margin: auto;
+	
+}
+
+.circle{
+	margin:auto;
+	margin-top: 50px;
+	
+	width:155px;
+	border-radius: 50%;
+	border: 2px solid #DC007C;
+	padding: 1px;
+}

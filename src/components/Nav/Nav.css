@@ -1,0 +1,21 @@
+.nav{
+		
+		margin: auto;
+		width:device-width;
+		text-align: center;
+		padding-top: 20px;	
+			
+}
+
+.nav label{
+	border:1px;
+	margin: 20px;
+	cursor: pointer;
+	padding: 2px;
+	color: #007FFF;
+
+}
+.nav label:hover{
+	color: black;
+
+}

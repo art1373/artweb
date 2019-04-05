@@ -1,0 +1,36 @@
+.contactform{
+	background: #eee;
+	border: 1px solid #333;
+	border-radius: 10px;
+	padding: 20px;
+	font-family: arial;
+	margin:auto;
+	margin-top: 10px; 
+
+}
+.contactform input[type=text],
+.contactform input[type=email], 
+.contactform textarea,
+.contactform .btndiv
+ {
+	width: 96%;
+	margin: auto;
+	padding: 1%;
+	margin-bottom: 5px;
+	font-size: 20px;
+	font-family: arial;
+}
+
+.btndiv{
+	text-align: right;
+}
+.contactform .btn{
+	padding: 10px 30px;
+	border-radius: 5px;
+	cursor: pointer;
+	background: khaki;
+	color: black;
+
+}
+
+

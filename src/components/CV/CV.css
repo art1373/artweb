@@ -1,0 +1,20 @@
+.CV{
+	font-family: 'Arial';
+	font-size: 20px;
+
+}
+
+.exp{
+	
+	margin-bottom: 3rem; 
+	margin-top: 3rem; 
+	border: 1px solid rgb(238, 238, 238); 
+	padding: 1.5rem; 
+	border-radius: 0.375rem; 
+	box-shadow: rgb(238, 238, 238) 0px 0px 20px 2px;
+}
+.mono{
+	font-family: monospace;
+	font-size: 24px;
+
+}

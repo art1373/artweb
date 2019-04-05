@@ -1,0 +1,18 @@
+@import url('../../font.css');
+.posts{
+	margin: auto;
+	text-align: left;
+	margin-bottom: 50px;
+	width:device-width;
+	font-family: "LatoReg";
+	font-size: 25px;
+	line-height: 1.9em;
+	text-align: center;
+}
+.posts a{
+	text-decoration: none;
+	color:Black;
+}
+.react{
+	color: #26C6DA;
+}
