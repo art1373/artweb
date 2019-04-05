@@ -1,0 +1,25 @@
+@font-face {
+	font-family: 'Audiowide Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('fonts/Audiowide Regular'), url('fonts/Audiowide-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url('fonts/Lato-Bold.eot');
+    src: url('fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Lato-Bold.woff') format('woff'),
+    url('fonts/Lato-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "LatoReg";
+    src: url('fonts/Lato-Regular.eot');
+    src: url('fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Lato-Regular.woff') format('woff'),
+    url('fonts/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
