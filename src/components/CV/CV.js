@@ -14,11 +14,11 @@ Restful services, PostgreSQL, Python
 
 <h1>SKILLS</h1>
 <p>
-<strong>Languages</strong>:<span><FaHtml5  style={{color:'orange' , fontSize: '2em'}}/>, 
-<FaCss3 style={{color:'cyan', fontSize: '2em'}}/>, 
-<FaJs style={{color:'#f7df1e', fontSize: '2em'}}/>, 
-<FaPython style={{color:'#4584b6', fontSize: '2em'}}/>, 
-<FaPhp style={{color:'#8892be', fontSize: '2em'}}/> 
+<strong>Languages</strong>:<span><FaHtml5  style={{color:'orange' , fontSize: '1.5em'}}/>&nbsp;
+<FaCss3 style={{color:'cyan', fontSize: '1.5em'}} />&nbsp;
+<FaJs style={{color:'#f7df1e', fontSize: '1.5em'}} />&nbsp;
+<FaPython style={{color:'#4584b6', fontSize: '1.5em'}} />&nbsp;
+<FaPhp style={{color:'#8892be', fontSize: '1.5em'}} />&nbsp; 
 </span> 
 </p>
 <p>
