@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHtml5,FaCss3, FaJs, FaPython, FaPhp,}from 'react-icons/fa';
+import { FaHtml5,FaCss3, FaJs, FaPython, FaPhp}from 'react-icons/fa';
 import './CV.css';
 const CV = () => {
 return (
@@ -14,7 +14,12 @@ Restful services, PostgreSQL, Python
 
 <h1>SKILLS</h1>
 <p>
-<strong>Languages</strong>:<span><FaHtml5  style={{color:'orange'}}/>, <FaCss3 style={{color:'cyan'}}/>, <FaJs style={{color:'#f7df1e'}}/>, <FaPython style={{color:'#4584b6'}}/>, <FaPhp style={{color:'#8892be'}}/> </span> 
+<strong>Languages</strong>:<span><FaHtml5  style={{color:'orange' , fontSize: '2em'}}/>, 
+<FaCss3 style={{color:'cyan', fontSize: '2em'}}/>, 
+<FaJs style={{color:'#f7df1e', fontSize: '2em'}}/>, 
+<FaPython style={{color:'#4584b6', fontSize: '2em'}}/>, 
+<FaPhp style={{color:'#8892be', fontSize: '2em'}}/> 
+</span> 
 </p>
 <p>
 <strong>Web Development Technologies</strong>: React, React Native, Redux, Nodejs, Express, Restful services, GraphQL,
