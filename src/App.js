@@ -6,7 +6,7 @@ import Nav from './components/Nav/Nav';
 import Footer from './components/Footer/Footer';
 import Posts from './components/Posts/Posts';
 import CV from './components/CV/CV';
-//import ContactMe from './components/ContactMe/ContactMe';
+import ContactMe from './components/ContactMe/ContactMe';
 
 
 const screenWidth = window.innerWidth;
@@ -19,7 +19,6 @@ class App extends Component {
     super(props);
     this.state={
       pages: <Posts />,
-      images:['./1.jpg', './2.jpg'],
     };
   }
   onRouteChange = (route) =>{
@@ -27,7 +26,7 @@ class App extends Component {
     switch(route){
       case 0: pages = <Posts />; break;
       case 1: pages = <CV />; break;
-      //case 2: pages = <ContactMe />; break;
+      case 2: pages = <ContactMe />; break;
       default: pages = <Posts />;
     };
     this.setState({pages: pages});

@@ -1,6 +1,6 @@
 import React from 'react';
 import './ContactMe.css';
-import axios from 'axios';
+//import axios from 'axios';
 
 
 
@@ -12,28 +12,43 @@ class ContactForm extends React.Component{
 			name: '',
 			email: '',
 			msg:'',
-			mailSent: false,
-  			error: null
-
+			msgSent: false,
+  			error: null,
 
 		}
 	}
 
-	handleFormSubmit = e => {
-		e.preventDefault();
-		  axios({
-		    method: 'post',
-		    url: 'http://localhost/artweb/contact.php',
-		    headers: { 'content-type': 'application/json' },
-		    data: this.state
-		  })
-		    .then(result => {
-		      this.setState({
-		        mailSent: result.data.sent
-		      })
-		    })
-		    .catch(error => this.setState({ error: error.message }));
-		};
+	handleFormSubmit = () => {
+		fetch('http://localhost:3001/savemsg',	{
+		   	method: 'post',
+		   	headers: {
+		   		'Accept': 'application/json, text/plain, */*',
+			    'Content-Type':'application/json',
+		   		'Access-Control-Allow-Origin':'*',
+		   	},
+		   	body: JSON.stringify({
+				"name": this.state.name,
+		    	"email": this.state.email,
+		    	"msg": this.state.msg
+   			})
+  		})
+  		.then(response => response.json())
+    	.then(msgid => {
+      		this.setState({msgSent: true})
+    	})
+	}
+
+	handleFormClear = () => {
+		
+		document.getElementById('name').value='';
+		document.getElementById('email').value='';
+		document.getElementById('msg').value='';
+		this.setState({
+			name: '',
+			email: '',
+			msg: ''
+		})
+	}
 
 	render(){
 		return(
@@ -42,41 +57,46 @@ class ContactForm extends React.Component{
 				<div>
 				<label>Name</label><br />
 				<input 
+					id='name'
 					type='text' 
 					size='50' 
 					placeholder='your name'
-					onChange={e => this.setState({ name: e.target.value })}
+					onChange={event => this.setState({ name: event.target.value })}
 				/>
 				</div>
 				<div>
 				<label>E-mail</label><br />
-				<input 
+				<input id='email'
 					type='email' 
 					size='50' 
 					placeholder='example@domain.com'
-					onChange={e => this.setState({ email: e.target.value })}
+					onChange={event => this.setState({ email: event.target.value })}
 				/>
 				</div>
 				<div>
 				<label>Messege</label><br />
 				<textarea 
+					id='msg'
 					rows='10' 
 					placeholder='Write your messege here'
-					onChange={e => this.setState({ msg: e.target.value })}
+					onChange={event => this.setState({ msg: event.target.value })}
 				></textarea>
 				</div>
 				<div className='btndiv '>
-				<input
-					type="submit"
+				<button
 					className='btn'
-					value='submit'
-					onClick={e=> this.handleFormSubmit(e)}
+					onClick={this.handleFormSubmit}
+				>Submit</button>
+				<button
+					className='btnclear'
+					onClick={this.handleFormClear}
 
-				/>
+				>Clear</button>
 				</div>
+				
 			</div>
-				<div>
-	  			{this.state.mailSent &&
+				<div className='msgsent'>
+	  			{this.state.msgSent &&
 				<div>Thank you for contcting me I will get Back to you ASAP.</div>
 				 }
 				</div>
@@ -85,6 +105,7 @@ class ContactForm extends React.Component{
 
 
 			</div>
+
 		)
 	}
 

@@ -10,6 +10,7 @@ const Nav = ({onRouteChange}) =>{
 		<nav className='nav'>
 			<label onClick={() => onRouteChange(0)}><u>About</u></label> 
 			<label onClick={() => onRouteChange(1)}><u>CV</u></label> 
+			<label onClick={() => onRouteChange(2)}><u>Contact Me</u></label> 
 		</nav>
 	);
 }
