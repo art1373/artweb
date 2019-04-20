@@ -8,7 +8,7 @@ return (
 		
 		<h1>My Tech</h1>
 Software Engineering, 
-Javascript,React, React Native, NodeJS, 
+Javascript,Typescript,React, React Native, NodeJS, 
 Restful services, PostgreSQL, Python
 
 
@@ -47,6 +47,16 @@ BA in Law Azad University in Tehran
 Python Bible, Compelete Web Developer Javascript by Udemy
 
 <h2>PROFESSIONAL EXPERIENCE </h2>
+<div className='exp'>
+<h3>PHP Backend Developer Intern at Mihanblockchain </h3>
+<h4>April 2019-May 2019</h4>
+<p className='mono'>
+Focused on Backend Using PHP and MySQL,
+Learning and implementing Php and Javascript
+to create needed webpages.
+Worked with wordpress and basic use of Solidity.
+</p>
+</div>
 <div className='exp'>
 <h3>Freelance Software engineer </h3>
 <h4>Nov 2018 - Present</h4>
