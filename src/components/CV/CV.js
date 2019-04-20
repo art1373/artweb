@@ -55,6 +55,7 @@ Focused on Backend Using PHP and MySQL,
 Learning and implementing Php and Javascript
 to create needed webpages.
 Worked with wordpress and basic use of Solidity.
+Developed an Interactive Dictionary webapp.
 </p>
 </div>
 <div className='exp'>
