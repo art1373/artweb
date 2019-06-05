@@ -1,5 +1,8 @@
 import React from 'react';
 import { FaHtml5,FaCss3, FaJs, FaPython, FaPhp}from 'react-icons/fa';
+import Illus from './illustrator.svg'
+import PS from './photoshop.svg'
+import XD from './xd.svg'
 import './CV.css';
 const CV = () => {
 return (
@@ -8,8 +11,7 @@ return (
 		
 		<h1>My Tech</h1>
 Software Engineering, 
-Javascript,Typescript,React, React Native, NodeJS, 
-Restful services, PostgreSQL, Python
+Javascript,Typescript,PHP,Python
 
 
 <h1>SKILLS</h1>
@@ -22,24 +24,26 @@ Restful services, PostgreSQL, Python
 </span> 
 </p>
 <p>
-<strong>Web Development Technologies</strong>: React, React Native, Redux, Nodejs, Express, Restful services, GraphQL,
-Django(beginner), Gatsby, Ruby on Rails(willing to learn), Jekyll(willing to learn).
+<strong>Web Development Technologies</strong>: React, Angular, Redux, Nodejs, Express, Restful services,
+Ruby on Rails(willing to learn)
 </p>
 <p>
-<strong>Mobile Development</strong>: React Native (Android and iOS)
+<strong>Design Tools</strong>:<span>
+<img className="design" src={Illus} alt="illus"/>
+<img className="design" src={PS} alt="ps"/>
+<img className="design1" src={XD} alt="ps"/>
+</span>
+<div className="design"></div>
 </p>
 <p>
-<strong>Databases</strong>: MySQL, PostgreSQL, MongoDB
+<strong>Databases</strong>: MySQL, PostgreSQL
 </p>
 <p>
-<strong>Others</strong>: Heroku, Git, Continuous Delivery,Agile
+<strong>Others</strong>: Heroku, Git
 </p>
 <p>
 <strong>Soft skills</strong>: Very Good at communication, Team player, Pragmatic, Independent, Fast Learner, Good Analytical Skills, Fluent in English
 </p>
-<p><strong>My Code_way</strong> : "Simplicity is the ultimate sophistication."
-</p>
-<p>Currently looking into Ai, Mobile Development, Web Development, Game Design, if you have Internships or junior level positions available in any of these fields contact me!</p>
 
 <h1>EDUCATION</h1>
 BA in Law Azad University in Tehran
@@ -47,6 +51,16 @@ BA in Law Azad University in Tehran
 Python Bible, Compelete Web Developer Javascript by Udemy
 
 <h2>PROFESSIONAL EXPERIENCE </h2>
+<div className='exp'>
+<h3>Front-End Developer at Utab </h3>
+<h4>May 2019-Present</h4>
+<p className='mono'>
+Focused on Front-end Development Using Angular Framework,
+Learning and implementing Typescript
+to create needed webpages for an E-commerce Project Www.Ufarm.ir,
+Focused on mobile-first and responsive design.
+</p>
+</div>
 <div className='exp'>
 <h3>PHP Backend Developer Intern at Mihanblockchain </h3>
 <h4>April 2019-May 2019</h4>
@@ -56,17 +70,6 @@ Learning and implementing Php and Javascript
 to create needed webpages.
 Worked with wordpress and basic use of Solidity.
 Developed an Interactive Dictionary webapp.
-</p>
-</div>
-<div className='exp'>
-<h3>Freelance Software engineer </h3>
-<h4>Nov 2018 - Present</h4>
-<p className='mono'>
-Full-stack engineering on Frontend, Backend, 
-Mobile using Javascript,React, React Native, NodeJS, PostgreSQL 
-Mobile first and responsive Design
-Strong understanding of startup needs.
-see my projects for more insight into my work
 </p>
 </div>
 <div className='exp'>
