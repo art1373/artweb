@@ -18,7 +18,7 @@ const Posts = () => {
 			<p>
 				You can Reach me through social Media preferebly Linkedin.
 			</p>
-			<footer>Designed With React <FontAwesomeIcon className='react' icon={faReact} style={{fontSize:'2em'}}/></footer>
+			<footer>Designed With React <FontAwesomeIcon className='react' icon={faReact} style={{fontSize:'3em'}}/></footer>
 		</div>
 	);
 }

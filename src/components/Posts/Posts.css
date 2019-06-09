@@ -15,4 +15,13 @@
 }
 .react{
 	color: #26C6DA;
+	animation: rotate 10s infinite;
+}
+@keyframes rotate {
+	from {
+	  transform: rotate(0deg);
+	}
+	to {
+	  transform: rotate(360deg);
+	}
 }
