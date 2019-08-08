@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Posts = () => {
 	return (
 		<div className="posts">
-			<h2>Hey There! My name is Alireza TK</h2>
+			<h2>Hey There! My name is Alireza Tavakol</h2>
 			<p>
 				I'm a Front-end Developer and A Designer living in <b>Iran&nbsp;</b>
 				<img alt='iran' src={require('./iran.png')} style={{width:'30px'}}/>
